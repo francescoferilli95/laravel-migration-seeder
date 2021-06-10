@@ -20,3 +20,4 @@ Route::get('/', 'PageController@index')->name('home');
 Route::get('/about', 'PageController@about')->name('about');
 
 // AGENCY
+Route::get('/agency', 'AgencyController@index')->name('agency');

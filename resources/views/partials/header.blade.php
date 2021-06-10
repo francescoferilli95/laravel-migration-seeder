@@ -6,7 +6,7 @@
             <ul>
                 <li><a href="{{ route('home') }}">Home</a></li>
                 <li><a href="{{ route('about') }}">About</a></li>
-                <li><a href="{{-- route('agency') --}}">Agency</a></li>
+                <li><a href="{{ route('agency') }}">Agency</a></li>
             </ul>
         </nav>
     </div>
