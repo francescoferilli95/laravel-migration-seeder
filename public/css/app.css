@@ -1,0 +1,43 @@
+/**
+MAIN LAYOUT
+**/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header {
+  display: flex;
+  height: 90px;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul a {
+  text-decoration: none;
+}
+
+main {
+  height: calc(100vh - 180px);
+  padding: 1rem;
+}
+
+p {
+  margin: 2rem 0;
+}
+
+footer {
+  text-align: center;
+  height: 90px;
+}
+
