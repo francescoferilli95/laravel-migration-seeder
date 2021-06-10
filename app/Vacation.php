@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Agency extends Model
+class Vacation extends Model
 {
     //
 }
